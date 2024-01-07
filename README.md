@@ -77,6 +77,7 @@ Additionally, we implement reinforcement learning for intelligent bike station r
 - Utilize linear regression models (Lasso, Ridge, Polynomial, Elastic) and tree-based models (Decision Tree, Random Forest, Gradient Boosting).
 - Tune models using grid search and hyperparameter tuning.
 - Evaluate models using metrics like Mean Squared Error, Root Mean Squared Error, Mean Absolute Error, Accuracy, R2, and adjusted R2.
+  ![image](https://github.com/Lohitha-Vanteru/Bike-Share-Demand-Prediction-and-Rebalancing-using-ML/assets/113141006/1503f13c-15c9-4230-89f5-68872d647c6c)
 
 ## Technical Difficulty
 - Defining appropriate reward or penalty functions in real-life scenarios.
