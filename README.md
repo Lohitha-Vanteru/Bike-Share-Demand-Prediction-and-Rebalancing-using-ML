@@ -12,8 +12,39 @@ The growth of on-road automobiles and traffic congestion necessitate high-qualit
   - Date, Rented Bike count, Hour, Temperature, Humidity, Windspeed, Visibility, Dew point temperature, Solar radiation, Rainfall, Snowfall, Seasons, Holiday, Functional Day.
 
 ## Exploratory Data Analysis
-- Analyze ride patterns based on time of day, day of the week, and seasons.
-- Investigate the distribution of rides on different types of days.
+### A. When are the most rides happening?
+- **Time of Day:**
+![image](https://github.com/Lohitha-Vanteru/Bike-Share-Demand-Prediction-and-Rebalancing-using-ML/assets/113141006/5acd1537-6ca6-4687-98a7-03c65276cd96)
+
+  - Peaks observed at 8 AM, 9 AM, and evenings at 4 PM, 5 PM, 6 PM indicate majority trips before and after office hours.
+  - Trips between 10 AM and 3 PM remain relatively constant.
+  - Substantial decline in trips after 6 PM.
+
+- **Day of Week:**
+ ![image](https://github.com/Lohitha-Vanteru/Bike-Share-Demand-Prediction-and-Rebalancing-using-ML/assets/113141006/8c71f7fb-216f-4449-8e39-e8c2e61e6732)
+
+  - Majority of trips on weekdays (Mon-Fri) compared to weekends (Sat-Sun).
+  - Correlates with the observation of trips before and after office hours.
+
+- **Season:**
+![image](https://github.com/Lohitha-Vanteru/Bike-Share-Demand-Prediction-and-Rebalancing-using-ML/assets/113141006/a8c0cefa-61db-4f63-8f71-b615f4b94d24)
+![image](https://github.com/Lohitha-Vanteru/Bike-Share-Demand-Prediction-and-Rebalancing-using-ML/assets/113141006/d976a805-cce2-4cf6-956e-ff822987a46f)
+
+  - Summer has the highest rentals, followed by spring and fall.
+  - Suggests a preference for warm to pleasant climates over colder climates.
+
+### B. Distribution of Rides on Different Kinds of Days w.r.t Hours
+- **Weekdays vs. Weekends vs. Holidays:**
+  ![image](https://github.com/Lohitha-Vanteru/Bike-Share-Demand-Prediction-and-Rebalancing-using-ML/assets/113141006/86e9680f-723d-4ff6-adce-0d55607fd530)
+
+  - Different patterns observed; high demand in the afternoon on weekends and holidays.
+  - Weekdays show high demand during office timings and non-holidays.
+  - Low demand in December, January, and February due to colder weather, as supported by the seasonal data.
+
+- **Year:**
+![image](https://github.com/Lohitha-Vanteru/Bike-Share-Demand-Prediction-and-Rebalancing-using-ML/assets/113141006/f052a47d-1c26-4520-9342-5cf12714842e)
+
+  - Higher demand in 2018 compared to 2017, indicating an increasing bike share demand over the years.
 
 ## Data Transformation
 - Address multicollinearity in independent variables for linear regression models.
